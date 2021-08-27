@@ -30,6 +30,7 @@ public class DBconnector {
             singleton = DriverManager.getConnection( URL, USER, PW );
         }
         return singleton;
+
     }
     
 }
